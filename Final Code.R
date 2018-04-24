@@ -8,7 +8,7 @@ contraceptives$Hormonal_contraceptives <- ifelse(contraceptives$Hormonal_contrac
 
 contraceptives.agg <- aggregate(Hormonal_contraceptives ~ ID_Number, contraceptives, max)
 
-
+#Hey! Good luck on your final project!!!
 #Breast Cancer
 ID_Number <- h137$DUPERSID
 Breast_cancer <- h137$CCCODEX
